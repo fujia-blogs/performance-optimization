@@ -1,0 +1,38 @@
+{
+  "name": "performance-optimization",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fujia-blogs/performance-optimization.git"
+  },
+  "keywords": [
+    "javascript",
+    "performance"
+  ],
+  "author": {
+    "email": "fujia.site@outlook.com",
+    "name": "fujia",
+    "url": "https://fujia.site"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fujia-blogs/performance-optimization/issues"
+  },
+  "homepage": "https://github.com/fujia-blogs/performance-optimization#readme",
+  "devDependencies": {
+    "@commitlint/config-conventional": "^16.2.1",
+    "commitlint": "^16.2.3",
+    "husky": "^7.0.0"
+  }
+}
